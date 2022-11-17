@@ -1,5 +1,6 @@
 import './App.css';
-import Header from './Header';
+import Header from './components/header/Header';
+import Sidebar from './components/sidebar/Sidebar';
 
 function App() {
   return (
@@ -8,6 +9,9 @@ function App() {
       <Header />
       {/*App Body */}
       {/* Sidebar*/}
+      <div className="app__body">
+        <Sidebar />
+      </div>
       {/*Feed*/}
       {/*Widgets*/}
     </div>
